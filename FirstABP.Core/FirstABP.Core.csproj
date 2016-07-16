@@ -50,6 +50,9 @@
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TextTemplating.14.0, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -196,127 +199,111 @@
     <Compile Include="AA\V_MFT_SPECIAL_CHANNELS.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="AreaChangeHis.cs">
+    <Compile Include="Entities\AbpAuditLogs.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_CHARGEBACK_PARAMETER.cs">
+    <Compile Include="Entities\AbpBackgroundJobs.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_ENTERPRISE.cs">
+    <Compile Include="Entities\AbpEditions.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_ENTERPRISE_RUNNING.cs">
+    <Compile Include="Entities\AbpFeatures.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_EXCEPTION_LOG.cs">
+    <Compile Include="Entities\AbpLanguages.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_OPERATE_LOG.cs">
+    <Compile Include="Entities\AbpLanguageTexts.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_OPERATOR.cs">
+    <Compile Include="Entities\AbpNotifications.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_OPERATOR_ROLE.cs">
+    <Compile Include="Entities\AbpNotificationSubscriptions.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BASE_SHIP_INFO.cs">
+    <Compile Include="Entities\AbpOrganizationUnits.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="BatchNoInfo.cs">
+    <Compile Include="Entities\AbpPermissions.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="CIQ_SHIPDECL_DETAILS.cs">
+    <Compile Include="Entities\AbpRoles.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="CIQ_SHIPDECL_FREEZE.cs">
+    <Compile Include="Entities\AbpSettings.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpTenantNotifications.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpTenants.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUserAccounts.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUserLoginAttempts.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUserLogins.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUserNotifications.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUserOrganizationUnits.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUserRoles.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AbpUsers.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AggregatedCounter.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Counter.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Hash.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Job.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\JobParameter.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\JobQueue.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\List.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Schema.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Server.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Set.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\State.cs">
+      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\__MigrationHistory.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
     <Compile Include="FirstABPConsts.cs" />
     <Compile Include="FirstABPCoreModule.cs" />
-    <Compile Include="MFT_GENDECL_DETAILS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_GENDECL_STATISTICS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_GENDECL_STATISTICS2.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_GENDECL_STATISTICS2_HISTORY.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_GENDECL_STATISTICS_HISTORY.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_GENDECL_TRADELINK.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_SPECIAL_CHANNELS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MFT_SPECIAL_CHANNELS_HISTORY.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="M_1.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
+    <Compile Include="GeneratorHelper.cs" />
     <Compile Include="People\IPersonRepository.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Entities.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="report.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SYS_BUILDAUID.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SYS_FUNCTION.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SYS_PROC_LOG.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SYS_ROLE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SYS_ROLE_AUTHORIZE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TEMP_MFT.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TEST_ENTERPRISE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_BASE_ENTERPRISE_RUNNING.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_BASE_ENTERPRISE_RUNNING_CIQ.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_BASE_ENTERPRISE_RUNNING_MFT.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_BASE_OPERATOR.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_BASE_OPERATOR_ROLE_FUNCTION.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_CIQ_SHIPDECL_FREEZE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_MFT_GENDECL_DETAILS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="V_MFT_SPECIAL_CHANNELS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -351,10 +338,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBSchema.tt</DependentUpon>
     </Content>
-    <Content Include="Entities.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Entities.cs</LastGenOutput>
-    </Content>
     <Content Include="T4\ResourceGenerator\ResourceGenerator.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ResourceGenerator.log</LastGenOutput>
@@ -368,6 +351,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BB\" />
     <Folder Include="Entities\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

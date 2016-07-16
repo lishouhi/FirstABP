@@ -61,45 +61,5 @@ namespace <#=config.nameSpace#>
         public static readonly string DbDatabase="MyFirstABP";
         public static readonly string TableName="Catalog";
         public static readonly string nameSpace="FirstABP";
-
-		/// <summary>
-        /// Converts camelCase string to PascalCase string.
-        /// </summary>
-        /// <param name="str">String to convert</param>
-        /// <returns>PascalCase of the string</returns>
-        public static string ToPascalCase(string str)
-        {
-            return ToPascalCase(str,CultureInfo.InvariantCulture);
-        }
-
-        /// <summary>
-        /// Converts camelCase string to PascalCase string in specified culture.
-        /// </summary>
-        /// <param name="str">String to convert</param>
-        /// <param name="culture">An object that supplies culture-specific casing rules</param>
-        /// <returns>PascalCase of the string</returns>
-        public static string ToPascalCase(string str,CultureInfo culture)
-        {
-            var array = str.Split(new char[]
-	        {
-		        '_'
-	        });
-
-            string text = string.Empty;
-            if (array.Length > 1)
-            {
-                for (int i = 1; i < array.Length; i++)
-                {
-                    text = text + array[i].Substring(0, 1).ToUpper() + array[i].Substring(1).ToLower();
-                }
-
-				return text;
-            }
-			else
-            {
-				return str;
-            }
-            
-        }
     }
 #>
