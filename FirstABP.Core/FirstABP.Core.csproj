@@ -88,117 +88,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
-    <Compile Include="AA\AreaChangeHis.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_CHARGEBACK_PARAMETER.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_ENTERPRISE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_ENTERPRISE_RUNNING.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_EXCEPTION_LOG.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_OPERATE_LOG.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_OPERATOR.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_OPERATOR_ROLE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BASE_SHIP_INFO.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\BatchNoInfo.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\CIQ_SHIPDECL_DETAILS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\CIQ_SHIPDECL_FREEZE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_GENDECL_DETAILS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_GENDECL_STATISTICS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_GENDECL_STATISTICS2.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_GENDECL_STATISTICS2_HISTORY.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_GENDECL_STATISTICS_HISTORY.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_GENDECL_TRADELINK.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_SPECIAL_CHANNELS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\MFT_SPECIAL_CHANNELS_HISTORY.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\M_1.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\report.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\SYS_BUILDAUID.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\SYS_FUNCTION.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\SYS_PROC_LOG.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\SYS_ROLE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\SYS_ROLE_AUTHORIZE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\TEMP_MFT.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\TEST_ENTERPRISE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_BASE_ENTERPRISE_RUNNING.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_BASE_ENTERPRISE_RUNNING_CIQ.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_BASE_ENTERPRISE_RUNNING_MFT.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_BASE_OPERATOR.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_BASE_OPERATOR_ROLE_FUNCTION.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_CIQ_SHIPDECL_FREEZE.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_MFT_GENDECL_DETAILS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AA\V_MFT_SPECIAL_CHANNELS.cs">
-      <DependentUpon>04 MultModelAuto.tt</DependentUpon>
-    </Compile>
     <Compile Include="Entities\AbpAuditLogs.cs">
       <DependentUpon>04 MultModelAuto.tt</DependentUpon>
     </Compile>
@@ -301,8 +190,6 @@
     <Compile Include="FirstABPConsts.cs" />
     <Compile Include="FirstABPCoreModule.cs" />
     <Compile Include="GeneratorHelper.cs" />
-    <Compile Include="People\IPersonRepository.cs" />
-    <Compile Include="People\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -350,10 +237,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BB\" />
-    <Folder Include="Entities\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
