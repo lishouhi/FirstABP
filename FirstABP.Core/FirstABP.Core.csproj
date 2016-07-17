@@ -91,102 +91,135 @@
     <Compile Include="Entities\AbpAuditLogs.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpAuditLogs.cs" />
     <Compile Include="Entities\AbpBackgroundJobs.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpBackgroundJobs.cs" />
     <Compile Include="Entities\AbpEditions.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpEditions.cs" />
     <Compile Include="Entities\AbpFeatures.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpFeatures.cs" />
     <Compile Include="Entities\AbpLanguages.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpLanguages.cs" />
     <Compile Include="Entities\AbpLanguageTexts.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpLanguageTexts.cs" />
     <Compile Include="Entities\AbpNotifications.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpNotifications.cs" />
     <Compile Include="Entities\AbpNotificationSubscriptions.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpNotificationSubscriptions.cs" />
     <Compile Include="Entities\AbpOrganizationUnits.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpOrganizationUnits.cs" />
     <Compile Include="Entities\AbpPermissions.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpPermissions.cs" />
     <Compile Include="Entities\AbpRoles.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpRoles.cs" />
     <Compile Include="Entities\AbpSettings.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpSettings.cs" />
     <Compile Include="Entities\AbpTenantNotifications.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpTenantNotifications.cs" />
     <Compile Include="Entities\AbpTenants.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpTenants.cs" />
     <Compile Include="Entities\AbpUserAccounts.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUserAccounts.cs" />
     <Compile Include="Entities\AbpUserLoginAttempts.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUserLoginAttempts.cs" />
     <Compile Include="Entities\AbpUserLogins.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUserLogins.cs" />
     <Compile Include="Entities\AbpUserNotifications.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUserNotifications.cs" />
     <Compile Include="Entities\AbpUserOrganizationUnits.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUserOrganizationUnits.cs" />
     <Compile Include="Entities\AbpUserRoles.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUserRoles.cs" />
     <Compile Include="Entities\AbpUsers.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AbpUsers.cs" />
     <Compile Include="Entities\AggregatedCounter.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\AggregatedCounter.cs" />
     <Compile Include="Entities\Counter.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Counter.cs" />
     <Compile Include="Entities\Hash.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Hash.cs" />
     <Compile Include="Entities\Job.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Job.cs" />
     <Compile Include="Entities\JobParameter.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\JobParameter.cs" />
     <Compile Include="Entities\JobQueue.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\JobQueue.cs" />
     <Compile Include="Entities\List.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\List.cs" />
     <Compile Include="Entities\Schema.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Schema.cs" />
     <Compile Include="Entities\Server.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Server.cs" />
     <Compile Include="Entities\Set.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Set.cs" />
     <Compile Include="Entities\State.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\State.cs" />
     <Compile Include="Entities\__MigrationHistory.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
+    <Compile Include="Entities\__MigrationHistory.cs" />
     <Compile Include="FirstABPConsts.cs" />
     <Compile Include="FirstABPCoreModule.cs" />
     <Compile Include="T4\Others\GeneratorHelper.cs" />
@@ -237,9 +270,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

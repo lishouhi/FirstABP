@@ -48,20 +48,20 @@ using Abp.Domain.Entities;
  * CreateDate:<#=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")#>
  * Description:    
  *        <version>	    |	<author>	|<time>					|	<desc>
- *        1		    	|	侯鹏飞		|<#=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")#>	|	创建【航次轨迹相关】服务类	
+ *        1		    	|	侯鹏飞		|<#=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")#>	|	创建【<#= table.Remark #>】服务类	
 
  ****************************************************************************************/
 
-namespace Project.Model
+namespace FirstABP.Core.Entities
 {
-	public class <#=table.TableName#>
+	public class <#=table.TableName#> : Entity
 	{
 		<# foreach(DbColumn column in dbSchema.GetDbColumns(table))
 		{#>
 /// <summary>
 		/// <#= column.Remark #>
 		/// </summary>
-        public <#= column.CSharpType#> <#= column.ColumnName#> { get; set; }
+        public virtual <#= column.CSharpType#> <#= column.ColumnName#> { get; set; }
 
 		<#}#>  
 	}

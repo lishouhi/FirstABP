@@ -1,14 +1,16 @@
 ﻿using System.Data.Entity;
 using Abp.EntityFramework;
+using FirstABP.Core.Entities;
 
 namespace FirstABP.EntityFramework
 {
     public class FirstABPDbContext : AbpDbContext
     {
         //TODO: Define an IDbSet for each Entity...
-        //public virtual IDbSet<Person> Person { get; set; }
+        public virtual IDbSet<AbpUsers> Person { get; set; }
+
         //Example:
-        //public virtual IDbSet<User> Users { get; set; }
+        public virtual IDbSet<AbpUserRoles> Users { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

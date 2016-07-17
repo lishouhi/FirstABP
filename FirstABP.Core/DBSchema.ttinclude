@@ -177,7 +177,8 @@
 					TableName = row.Field<string>("tablename"),
 					SchemaName = row.Field<string>("schemname"),
 					Rows = row.Field<int>("rows"),
-					HasPrimaryKey = row.Field<bool>("HasPrimaryKey")
+					HasPrimaryKey = row.Field<bool>("HasPrimaryKey"),
+					Remark = string.Empty
 				}).ToList();
             }
 
@@ -682,6 +683,11 @@
             /// 是否含有主键
             /// </summary>
             public bool HasPrimaryKey { get; set; }
+
+			/// <summary>
+            /// 表的描述信息
+            /// </summary>
+			public string Remark { get; set; }
 
         }
         #endregion
