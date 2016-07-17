@@ -91,7 +91,6 @@
     <Compile Include="Entities\AbpAuditLogs.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\AbpAuditLogs.cs" />
     <Compile Include="Entities\AbpBackgroundJobs.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
