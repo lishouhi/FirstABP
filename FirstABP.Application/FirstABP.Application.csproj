@@ -89,10 +89,6 @@
   <ItemGroup>
     <Compile Include="FirstABPApplicationModule.cs" />
     <Compile Include="FirstABPAppServiceBase.cs" />
-    <Compile Include="People\DTO\GetAllPeopleOutput.cs" />
-    <Compile Include="People\DTO\PersonDto.cs" />
-    <Compile Include="People\IPersonService.cs" />
-    <Compile Include="People\PersonService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
